@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    width:800px;
+    height:800px;
+    justify-self: center;
+    margin-top:5rem;
+}
+
+#container div{
+    border: 0.1px solid black;
+}
+
+
+.button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    background: #3a3ae3;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 1.2rem;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
